@@ -24,21 +24,25 @@ Auto Scaling group—Contains EC2 instances running Apache and the CodeDeploy ag
 
 Install and Configure Jenkins server on EC2 Ubuntu 20.04
         
-        Download Jenkins :   wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+Download Jenkins :  sudo wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
         
-        sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list' --- append the Debian 
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list' --- append the Debian package repository address to the server’s sources.list
         
-        package repository address to the server’s sources.list
+sudo apt update
         
-        sudo apt update
-        
-        sudo apt install jenkins
+sudo apt install jenkins
+
 
 Start Jenkins : sudo systemctl start jenkins
                 sudo systemctl status jenkins
 
+
+
 From the server terminal sudo cat /var/lib/jenkins/secrets/initialAdminPassword --- To get the jenkins password. 
+
+
 Configure Jenkins on the Server : http://serverIPORDomain:8080
+
 ![image](https://github.com/CloudRespoProject/Jenkins/assets/144565485/9f7c6a6c-cb7e-449f-ac10-edcf73d88ee3)
 
 
