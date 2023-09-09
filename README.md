@@ -23,10 +23,11 @@ CodeBuild project—This is configured with the S3 bucket and S3 artifact.
 Auto Scaling group—Contains EC2 instances running Apache and the CodeDeploy agent fronted by an Elastic Load Balancer. Auto Scaling launch configurations—For use by the Auto Scaling group. Security groups—For the Jenkins server, the load balancer, and the CodeDeploy EC2 instance.
 
 Install and Configure Jenkins server on EC2 Ubuntu 20.04
-Download Jenkins :   wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
-sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list' --- append the Debian package repository address to the server’s sources.list
-sudo apt update
-sudo apt install jenkins
+        Download Jenkins :   wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+        sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list' --- append the Debian 
+        package repository address to the server’s sources.list
+        sudo apt update
+        sudo apt install jenkins
 
 Start Jenkins : sudo systemctl start jenkins
                 sudo systemctl status jenkins
