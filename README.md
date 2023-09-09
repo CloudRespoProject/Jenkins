@@ -15,7 +15,7 @@ Create 2 IAM roles : 1. S3 bucket role which contain a policy that allows the Je
                         allows Jenkins on the EC2 instance to access the S3 bucket to write files and access to create CodeDeploy deployments. 
                      3. CodeDeploy service role— An IAM role to enable CodeDeploy to read the tags applied to the instances or the EC2 Auto 
                         Scaling group names associated with the instances.
-                     4. CodeDeployRole— An IAM role and instance profile for the EC2 instances of CodeDeploy. This role has permissions to write files to the S3 bucket created by this template and to create deployments in CodeDeploy. 
+                     4. CodeDeployRole— An IAM role and instance profile for the EC2 instances of CodeDeploy. This role has permissions to write files to the S3 bucket. 
                      5. CodeBuildRole—  An IAM role to be used by CodeBuild to access the S3 bucket and create the build projects.
                      
 Create a Jenkins server— An EC2 instance running Jenkins.
