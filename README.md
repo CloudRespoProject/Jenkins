@@ -58,7 +58,8 @@ http://serverIPORDomain:8080
 
 Create a project and configure the CodeDeploy Jenkins plugin
 
-![image](https://github.com/CloudRespoProject/Jenkins/assets/144565485/3bfe4dc2-1979-4872-8386-c0ecb6bafa2a)
+![Uploading image.png…]()
+
 
 ![image](https://github.com/CloudRespoProject/Jenkins/assets/144565485/5f222bee-469c-40a1-b18d-a7eeecc3b372)
 
