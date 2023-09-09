@@ -38,10 +38,13 @@ Start Jenkins : sudo systemctl start jenkins
 
 
 
-From the server terminal sudo cat /var/lib/jenkins/secrets/initialAdminPassword --- To get the jenkins password. 
+ 
 
 
-Configure Jenkins on the Server : http://serverIPORDomain:8080
+Configure Jenkins on the Server : 
+From the server terminal sudo cat /var/lib/jenkins/secrets/initialAdminPassword --- To get the jenkins password.
+
+http://serverIPORDomain:8080
 
 ![image](https://github.com/CloudRespoProject/Jenkins/assets/144565485/9f7c6a6c-cb7e-449f-ac10-edcf73d88ee3)
 
