@@ -64,6 +64,8 @@ Create a project and configure the CodeDeploy Jenkins plugin
 
 ![image](https://github.com/CloudRespoProject/Jenkins/assets/144565485/420493bf-4591-4e92-9023-884877d2ba39)
 
+Create a project and configure the CodeDeploy Jenkins plugin
+
 ![image](https://github.com/CloudRespoProject/Jenkins/assets/144565485/b4617112-7476-4f1b-84ad-0f669c6d6cba)
                      
 ![image](https://github.com/CloudRespoProject/Jenkins/assets/144565485/c0f82611-695d-41cb-8196-75e7f6842c7c)
