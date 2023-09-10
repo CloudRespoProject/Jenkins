@@ -65,7 +65,7 @@ Create a project and configure the CodeDeploy Jenkins plugin
 
 ![image](https://github.com/CloudRespoProject/Jenkins/assets/144565485/420493bf-4591-4e92-9023-884877d2ba39)
 
-Create a project and configure the CodeDeploy Jenkins plugin
+Create a project and configure the CodeDeploy Jenkins plugin. 
 
 ![image](https://github.com/CloudRespoProject/Jenkins/assets/144565485/b4617112-7476-4f1b-84ad-0f669c6d6cba)
                      
@@ -76,6 +76,8 @@ Create a project and configure the CodeDeploy Jenkins plugin
 
 
 ![image](https://github.com/CloudRespoProject/Jenkins/assets/144565485/50d002b2-8445-42f3-87d2-ec9cbb3fe83d)
+
+POLL SCM : To periodically check for new commits to your repository set the the cron job for periodically updates.
 
 ![image](https://github.com/CloudRespoProject/Jenkins/assets/144565485/707d9413-65ab-420a-be06-dabf937e57d0)
 
